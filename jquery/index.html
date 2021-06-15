@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+        <P>HELLO WORLD</P>
+        <P id="A">HELLO javascript</P>
+        <P class="B">HELLO jquery</P>
+<div>
+    <button id="toggle">toggle</button>
+</div>
+        <div class="para">
+            jQuery is a fast, small, and feature-rich JavaScript library. It
+            makes things like HTML document traversal and manipulation, event
+            handling, animation, and Ajax much simpler with an easy-to-use API
+            that works across a multitude of browsers. With a combination of
+            versatility and extensibility, jQuery has changed the way that
+            millions of people write JavaScript.
+        </div>
+
+
+
+
+        <SCRIPT src="./jquery-3.6.0.min.js"></SCRIPT>
+        <script>
+    $(document).ready(function(){
+
+        
+        // there are three seletor:
+        // 1.Element selector
+        // 2.id selector
+        // 3.class selector
+//    1. Element selector
+
+    // console.log("vikash");
+    // $('p').click(function(){
+    //    console.log('you click on p')
+    //   document.write('you click on p')
+        // $(this).hide();
+    // });
+
+// 2.id selector
+// $('#A').click(function()
+// {
+//     console.log('javascript')
+// });
+// $('.B').click(function()
+// {
+//     console.log('jquery')
+// });
+
+
+// Event in jquery:
+
+// mouse event (click,doble click,mouseenter,hover)
+// keyboard event
+// form event
+// document event
+
+
+// $('p').dblclick(function(){
+//   console.log('you doubleclick on p',this)
+// })
+
+// $('p').mouseenter(function(){
+//   console.log('you have enterd on p',this)
+// })
+
+// $('p').hover(function(){
+//   console.log('you hovered on p',this);
+// },
+// function(){
+//     console.log("Thanks for comming")
+// });
+
+// $('p').on({
+//     click:function()
+//     {
+//     console.log('Thanks for clicking',this);
+//     },
+//     mouseleave: function(){
+//         console.log("mouseleave")
+
+//     }
+// })
+
+// $('.para').click(function(){
+//   $('.para').toggle(1000);
+// })
+// $('.para').hide();
+
+// $('#toggle').click(function(){
+//   $('.para').toggle(1000);
+// })
+
+// $('.para').click(function(){
+//   $('.para').fadeOut(1000);
+// })
+// $('.para').click(function(){
+//   $('.para').fadeToggle(1000);
+// })
+// $('.para').click(function(){
+//   $('.para').fadeIn(1000);
+// })
+
+// slide method
+
+// $('.para').slideUp(1000,function(){
+// console.log('done');
+// })
+
+// $('.para').slideDown(1000,function(){
+// console.log('done');
+// })
+
+// Animate function
+// $('para').animate({
+
+//     opacity:0.3,
+//     height:'150px',
+//     width: '350px'
+// },"slow")
+
+// $('.para').animate({opacity:0.3},1000);
+// $('.para').animate({height:'300px'},1000);
+// $('.para').animate({width:"360px"},1000);
+
+
+
+
+
+
+})
+
+    </script>
+    </body>
+</html>
